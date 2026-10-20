@@ -2,12 +2,12 @@
 #include <filesystem>
 #include <fstream>
 #include "utils.h"
-#include  "nss_decrypt.h"
+#include "nss_decrypt.h"
 #include "json.hpp"
 
 int wmain(int argc, wchar_t* argv[]) {
     if (argc != 3) {
-        std::wcerr << L"Usage: nss_sdr_demo.exe <Firefox-install-folder> "
+        std::wcerr << L"Usage: FirefoxDecrypt.exe <Firefox-install-folder> "
             L"<Firefox-profile-folder>\n"
             L"Close Firefox before running this program. "
             L"Decrypted credentials are printed to the console.\n";
